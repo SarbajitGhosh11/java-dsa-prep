@@ -10,12 +10,10 @@ public class BuynSellStocks {
         for(int i=0; i<prices.length; i++) {
            if (buyingPrice < prices[i] ) {
             profit = prices[i] - buyingPrice;
+            maxProfit = Math.max(maxProfit, profit);
            } else {
             profit = 0;
             buyingPrice = prices[i];
-           }
-           if (profit > maxProfit) {
-                maxProfit = profit;
            }
         }
 

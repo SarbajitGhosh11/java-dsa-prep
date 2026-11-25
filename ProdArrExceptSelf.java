@@ -34,3 +34,9 @@ public static void main(String args[]) {
    System.out.println("Ans :" + java.util.Arrays.toString(productArray(nums)));
 }
 }
+
+
+// git add .                  
+// >> >> git commit -m "Solved Product Array Except Self"                        
+// >> >> git push                                                                  
+// >> >>    
